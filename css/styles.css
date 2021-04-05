@@ -99,12 +99,13 @@
   transition-delay: 0.4s;
 }
 
-/*.headrow {
-  font-size:8px;
+.headrow {
+  font-size: 8px;
   width: 200px;
   word-wrap: break-word;
 }
-td:hover {
+
+/*td:hover {
   background-color: #ABA3A3;
   color: #000000;
   zoom: 2;
