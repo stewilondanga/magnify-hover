@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,17 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+.headrow {
+  font-size:8px;
+  width: 200px;
+  word-wrap: break-word;
+}
+td:hover {
+  background-color: #ABA3A3;
+  color: #000000;
+  zoom: 2;
 }
 
 #contact h1 {
