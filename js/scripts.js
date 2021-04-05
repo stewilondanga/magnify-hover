@@ -8,15 +8,15 @@ var navigate = (function() {
 })();
 
 $(document).ready(function() {
-      /*  $('#data').after('<div id="nav"></div>');
-    var rowsShown = 3;
-    var rowsTotal = $('#data tbody tr').length;
-    var numPages = rowsTotal/rowsShown;
-    for(i = 0;i < numPages;i++) {
+      $('#data').after('<div id="nav"></div>');
+      var rowsShown = 3;
+      var rowsTotal = $('#data tbody tr').length;
+      var numPages = rowsTotal / rowsShown;
+      for (i = 0; i < numPages; i++) {
         var pageNum = i + 1;
-        $('#nav').append('<a href="#" rel="'+i+'">'+pageNum+'</a> ');
-    }
-    $('#data tbody tr').hide();
+        $('#nav').append('<a href="#" rel="' + i + '">' + pageNum + '</a> ');
+      }
+      /*$('#data tbody tr').hide();
     $('#data tbody tr').slice(0, rowsShown).show();
     $('#nav a:first').addClass('active');
     $('#nav a').bind('click', function(){
