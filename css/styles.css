@@ -95,11 +95,11 @@
   transition-delay: 0.3s;
 }
 
-/*.share-button:hover .share__link:nth-of-type(4) {
+.share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
 
-.headrow {
+/*.headrow {
   font-size:8px;
   width: 200px;
   word-wrap: break-word;
