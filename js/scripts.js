@@ -7,8 +7,8 @@ var navigate = (function() {
   });
 })();
 
-/*$(document).ready(function(){
-    $('#data').after('<div id="nav"></div>');
+$(document).ready(function() {
+      /*  $('#data').after('<div id="nav"></div>');
     var rowsShown = 3;
     var rowsTotal = $('#data tbody tr').length;
     var numPages = rowsTotal/rowsShown;
