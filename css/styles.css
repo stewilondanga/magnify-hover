@@ -105,13 +105,13 @@
   word-wrap: break-word;
 }
 
-/*td:hover {
+td:hover {
   background-color: #ABA3A3;
   color: #000000;
   zoom: 2;
 }
 
-#contact h1 {
+/*#contact h1 {
   font-family: helvetica;
   font-weight: normal;
   text-align: center;
